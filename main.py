@@ -5,9 +5,9 @@ import json
 from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Change this to a secure secret key
+app.secret_key = 'meow'
 
-# Simulate environment variable storage
+# env var
 USERS_ENV = "USERS_DATA"
 POSTS_ENV = "POSTS_DATA"
 
